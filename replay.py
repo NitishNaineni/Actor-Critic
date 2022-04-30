@@ -1,4 +1,5 @@
 from collections import namedtuple,deque
+import random
 
 translate = namedtuple('translate',
                         ('state', 'action', 'reward', 'next_state', 'done'))
